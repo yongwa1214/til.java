@@ -2,13 +2,13 @@ package ch02.sec01;
 
 public class VariableInitializationExample {
     public static void main (String[] args) {
-        int value; //변수 선언, 선언ㅇ르 할 때 데이터 타입 지정! (int는 정수 타입)
+        int value; //변수 선언, 선언을 할 때 데이터 타입 지정! (int는 정수 타입)
         value = 10; // 쓰기
 
         int value2 = 20; // 쓰기
         /*
         에러 종류 크게 2가지
-        - 컴파일 에러: 실행ㅇ르 할 수 없음. 컴파일 자체가 불가능. 문법적 문제가 있거나 명확한 문제가 보이면...
+        - 컴파일 에러: 실행을 할 수 없음. 컴파일 자체가 불가능. 문법적 문제가 있거나 명확한 문제가 보이면...
           컴파일: 0과1로 바꾸는 작업
         - 런타임 에러
         */
@@ -19,3 +19,6 @@ public class VariableInitializationExample {
     }
 }
 // 변수 선언 후 최초로 값을 넣는 것을 초기화(initialization)라고 함
+// 메소드 구분법: () 있으면 메소드임
+// 예) System.out.println(어쩌구)
+// println는 메소드  System과 out은 메소드가 아니다
