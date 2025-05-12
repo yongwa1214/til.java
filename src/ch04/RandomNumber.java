@@ -1,4 +1,4 @@
-package ch04.sec02;
+package ch04;
 
 public class RandomNumber {
     public static void main (String[] args) {
@@ -20,3 +20,5 @@ public class RandomNumber {
         // 아 이해함 왜 최댓값이 9가 나올까요 math.random 이 절대 1이 될 수 없기 때문이죠
     }
 }
+
+
