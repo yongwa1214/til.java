@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class IfString {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); //적고 alt + Enter해줘야함
-        while (true) {
+        while (true) { // 이거 쓰면 아래 값이 true가 될때까지 반복함
             System.out.print("성별을 입력해 주세요. (w/m) > ");
             String gender = scanner.next();
             System.out.println("gender: " + gender);
