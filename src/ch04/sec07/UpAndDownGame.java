@@ -22,9 +22,9 @@ public class UpAndDownGame {
         while(true){
             int value = scanner.nextInt();
             if(value < answer){
-                System.out.print("up >> ");
+                System.out.print("UP >> ");
             } else if(value > answer){
-                System.out.print("down >> ");
+                System.out.print("DOWN >> ");
             } else{
                 System.out.println("정답!");
                 break;
