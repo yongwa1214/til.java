@@ -1,6 +1,6 @@
 package ch04.sec08;
 
-public class Gage369 {
+public class Game369 {
     public static void main(String[] args) {
         for(int i =1; i<=100; i++){
             System.out.printf("i=%d ", i);
