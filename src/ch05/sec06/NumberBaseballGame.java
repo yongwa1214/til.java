@@ -25,13 +25,13 @@ public class NumberBaseballGame {
             System.out.printf("숫자 %d개를 입력> ", answerArr.length);
             String input = scanner.nextLine();
             //System.out.println("input: " + input);
-            String[] inputStrArr = input.split("");
+            String[] inputStrArr = input.split(""); //()안에 있는걸 기준으로 쪼개겠다 쪼개서 배열로 넣음147
             if(inputStrArr.length != answerArr.length) {
                 continue;
             }
             int[] inputArr = new int[answerArr.length];
             for(int i=0; i<inputArr.length; i++) {
-                inputArr[i] = Integer.parseInt(inputStrArr[i]);
+                inputArr[i] = Integer.parseInt(inputStrArr[i]); // Integer.parseInt : 문자열을 int로 바꿔주는 함수?
             }
             //System.out.println(Arrays.toString(inputArr));
             int s = 0, b = 0;
@@ -43,6 +43,7 @@ public class NumberBaseballGame {
                         } else {
                             b++;
                         }
+                        break;
                     }
                 }
             }
